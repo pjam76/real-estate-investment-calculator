@@ -9,3 +9,6 @@ dist
 
 #coverage is the test coverage folder
 coverage
+
+#no npm debug
+npm-debug.log
