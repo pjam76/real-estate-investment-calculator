@@ -1,0 +1,11 @@
+#webstorm, in case used
+.idea
+
+#no modules please
+node_modules
+
+#dist is the bundling folder
+dist
+
+#coverage is the test coverage folder
+coverage
