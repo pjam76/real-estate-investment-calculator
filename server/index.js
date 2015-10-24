@@ -9,10 +9,9 @@ import { APPLICATION_PORT } from "../config"
 var app = express()
 var appserver = Server(app)
 
-app.get("/*", ( req, res, next ) => {
-	console.log("main universal server routing point")
-	res.sendStatus(200)
-})
+import universalServerRenderer from "../src/renderers/server.renderer"
+
+app.get("/*", universalServerRenderer )
 
 appserver.listen(APPLICATION_PORT, () => {
 	console.log(`app listening to on 0.0.0.0:${APPLICATION_PORT}`)
