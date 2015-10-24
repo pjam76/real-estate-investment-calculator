@@ -4,7 +4,7 @@
   "description": "A full stack react side project",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "start": "node index.js"
   },
   "keywords": [
     "react",
@@ -14,5 +14,9 @@
     "fullstack"
   ],
   "author": "Vlad Nicula",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^5.8.23",
+    "express": "^4.13.3"
+  }
 }
