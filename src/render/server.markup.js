@@ -8,7 +8,7 @@ export default function ( htmlMarkup ) {
 </head>
 <body>
 	<div id='root'>${htmlMarkup}</div>
-	<script type='text/javascript' src='/dist/library.bundle.js'></script>
+	<script type='text/javascript' src='/dist/vendor.bundle.js'></script>
 	<script type='text/javascript' src='/dist/app.bundle.js'></script>
 </body>
 </html>`

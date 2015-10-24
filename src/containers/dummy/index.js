@@ -6,7 +6,10 @@ class Dummy extends React.Component {
         this.displayName = 'Dummy';
     }
     render() {
-        return <div>Dummy</div>;
+        return <div>
+        	<h2>Dummy content!</h2>
+        	<p>I am just a dummy content page</p>
+        </div>;
     }
 }
 
