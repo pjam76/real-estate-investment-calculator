@@ -27,8 +27,11 @@
     "react": "^0.14.0",
     "react-bootstrap": "^0.27.2",
     "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
     "react-tools": "^0.10.0",
     "react-transform-hmr": "^1.0.1",
+    "redux": "^3.0.4",
+    "redux-form": "^2.4.5",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.4.1"
